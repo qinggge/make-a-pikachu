@@ -7,15 +7,15 @@
         $button.addClass('active')
             .siblings('.active').removeClass('active')
         switch(speed){
-            case 'slow':
-                duration = 100
-                break
-            case 'normal':
-                duration = 50
-                break
-            case 'fast':
-                duration = 10
-                break
+          case 'slow':
+              duration = 20
+              break
+          case 'normal':
+              duration = 10
+              break
+          case 'fast':
+              duration = 1
+              break
         }
     })
     function writeCode(prefix, code, fn) {
